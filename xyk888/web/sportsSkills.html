@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>喜欢的运动</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-image: url('image/playground.jpeg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: #fbf7f7;
+            margin: 0;
+            padding: 0;} 
+        header {
+            background-color: #87CEEB; 
+            color: #090909;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #0a0a0a;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 50px;
+        }
+        .landscape-image {
+            width: 100%;
+            height: auto;
+            max-width: 1000px;
+            transition: transform 2s ease;
+        }
+        .landscape-image:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #87CEEB; 
+            color: #fff;
+        }
+        .sports-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .sports-item {
+            flex-basis: calc(33% - 20px);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sports-image {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            transition: transform 2s ease;
+        }
+        .sports-image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>我喜爱的运动</h1>
+        <p class="subheading">运动天赋不足，运动活力不少。</p>
+        <nav>
+            <a href="index.html">主页</a>
+            <a href="booksIhaveRead.html">我的书架</a>
+            <a href="favoriteAnimation.html">喜欢的动漫</a>
+            <a href="sportsSkills.html">喜欢的运动</a>
+            <a href="placeIhaveWent.html">去过的地方</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>喜欢的运动</h2>
+        <div class="sports-list">
+            <div class="sports-item">
+                <img src="image/angel.jpeg" alt="足球" class="sports-image">
+                <h3>足球</h3>
+                <p>只看不踢（）但是真爱看。
+                    团队间心有灵犀的配合，关键时刻绝对的个人英雄主义使我爱上这项运动。
+                    而每一个关键进球的来之不易也使足球超越篮球成为我心中的第一运动。</p>
+            </div>
+            <div class="sports-item">
+                <img src="image/shoe.jpg" alt="篮球" class="sports-image">
+                <h3>轮滑</h3>
+                <p>（在学了在学了）。我一直觉得轮滑和滑冰是优雅的运动，希望我也可以变得更加优雅。</p>
+            </div>
+            <div class="sports-item">
+                <img src="image/france.jpeg" alt="环法" class="sports-image">
+                <h3>自行车</h3>
+                <p>等我有钱了一定买好车骑户外。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 [徐一坤] - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
